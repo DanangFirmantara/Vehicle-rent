@@ -1,0 +1,19 @@
+{
+  "name": "vehicle-rent",
+  "version": "1.0.0",
+  "description": "project for vehicle rent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "insert_db" : "node ./src/helpers/insert_db.js",
+    "create_db" : "node ./src/helpers/create_db.js"
+  },
+  "author": "Danang Firmantara",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  }
+}
